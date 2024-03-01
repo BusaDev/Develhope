@@ -1,4 +1,4 @@
-package Es_Get_Set_1;
+package Es_Get_Set1;
 
 public class Main {
     public static void main(String args[]) {
