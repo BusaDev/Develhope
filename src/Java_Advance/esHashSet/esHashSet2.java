@@ -2,10 +2,14 @@ package Java_Advance.esHashSet;
 
 import java.util.HashSet;
 
-public class esHashSet1 {
+public class esHashSet2 {
     public static void main(String args[]) {
         HashSet<String> nomi = new HashSet<String>();
+        String nome = "Francesco";
         riempiHashSet(nomi);
+        if(nomi.contains(nome)){
+            System.out.println("nella collezione è presente il nome " + nome);
+        }
         System.out.println(nomi);
         System.out.println(nomi.size());
     }
