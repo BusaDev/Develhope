@@ -1,4 +1,4 @@
-package Java_Advance.esArrayList1;
+package Java_Advance.esArrayList2;
 
 public class Student {
     private String name;
@@ -9,6 +9,14 @@ public class Student {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -17,3 +25,4 @@ public class Student {
                 '}';
     }
 }
+
