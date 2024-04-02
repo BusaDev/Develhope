@@ -1,4 +1,4 @@
-package Es_Get_Set1;
+package Java_Basic.esGetSet1;
 
 public class Studenti {
     private String name;
